@@ -7,6 +7,7 @@
 <script>
 export default {
   mounted() {
+    console.log(this.$http)
     
   },
 }
@@ -20,6 +21,7 @@ export default {
  left: 0;
  right: 0;
  top: 0;
+ background: pink;
 }
 
 </style>
