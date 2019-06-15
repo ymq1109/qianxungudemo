@@ -36,7 +36,7 @@ export default {
     }
     .mqtable-head{
         width: 100%;
-        height: 50px;
+  
     }
     .mqtable-content{
         margin-bottom: 50px;

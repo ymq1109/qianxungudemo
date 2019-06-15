@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    nihao
     <router-view />
   </div>
 </template>
@@ -21,7 +20,6 @@ export default {
  left: 0;
  right: 0;
  top: 0;
- background: pink;
 }
 
 </style>
