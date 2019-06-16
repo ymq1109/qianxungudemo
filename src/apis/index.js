@@ -7,7 +7,8 @@ var apis={
     setDailyBackgroundLike:'/daily/setDailyBackgroundLike',
     addNewMessage:'/message/addNewMessage',
     addNewMusicType:'/music/addNewMusicType',
-    deleteMusicType:'/music/deleteMusicType'
+    deleteMusicType:'/music/deleteMusicType',
+    wxsigin:'/user/signin'
     
 }
 Vue.prototype.$apis=apis;

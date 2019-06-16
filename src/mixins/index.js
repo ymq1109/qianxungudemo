@@ -7,10 +7,8 @@ Vue.mixin({
     post(url, params) {
       return this.$http.post(url, params)
         .then((resp) => {
-          this.$message({
-            type: resp.data.success ? 'success' : 'danger',
-            message: resp.data.message
-          })
+          this.$message('提交成功')
+          return resp
         })
     },
     operatorConfirm(message, action) {

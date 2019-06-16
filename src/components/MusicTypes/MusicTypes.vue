@@ -10,7 +10,7 @@
             <input type="file" @change="getMage($event)" placeholder="请选择要上传的文件">
           </el-form-item>
           <el-form-item>
-            <el-button type="primary" @click="setMage(typeInfo)">新增留言</el-button>
+            <el-button type="primary" @click="setMage(typeInfo)">新增类型</el-button>
           </el-form-item>
         </el-form>
       </template>
@@ -39,7 +39,7 @@ export default {
             let config={headers:{"Content-Type":"multipart/form-data"}};
             this.post(this.$apis.addNewMusicType,formData,config)
             .then((resp)=>{
-                console.log("type",resp);
+                console.log("resp",resp);
             })
         }
     }
